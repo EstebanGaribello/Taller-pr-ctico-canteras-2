@@ -5,17 +5,18 @@ public class bankaccount {
     /**
      * atributos de la clase
      */
-    int accountNumber;
-    private boolean Actived;
+    private int accountNumber;
+    protected boolean actived;
+    
     /**
      * setters y getters
      * @return
      */
     public boolean isActived() {
-        return Actived;
+        return actived;
     }
     public void setActived(boolean actived) {
-        this.Actived = actived;
+        this.actived = actived;
     }
    
 }

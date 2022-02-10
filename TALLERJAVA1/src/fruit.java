@@ -7,17 +7,18 @@ public class fruit {
     /**
      * atributos de la clase
      */
-    String Name;
-    float averageWeight;
-    private ArrayList<String> Color;
+    public String name;
+    private float averageWeight;
+    public ArrayList<String> colors;
+
     /**
      * setters y getters
-     * @param Color
+     * @param colors
      */
-    public void setColor(ArrayList<String> Color){
-        this.Color = Color;
+    public void setColor(ArrayList<String> colors){
+        this.colors = colors;
     }
     public ArrayList<String> getColor(){
-        return Color;
+        return this.colors;
     }
 }
